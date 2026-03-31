@@ -2,7 +2,7 @@
 
 ## MiniLLM - Assistente Virtual Simples em Python
 
-Este projeto consiste no desenvolvimento de um assistente virtual simples, denominado **MiniLLM**, criado como atividade da disciplina de Introdução à Programação em Python no IFCE Campus Boa Viagem.
+Este projeto consiste no desenvolvimento de um assistente virtual simples, denominado **MiniLLM**, criado como atividade do Curso de LLM.
 
 O objetivo do sistema é simular o funcionamento básico de um modelo de linguagem (LLM), sendo capaz de responder perguntas com base em um conjunto de respostas previamente cadastradas pelo usuário.
 
@@ -55,4 +55,4 @@ Execute o programa: python MiniLLM.py
 --Autora
 Alissa Garcia Moreira
 IFCE Campus Boa Viagem
-Curso: Análise e Desenvolvimento de Sistemas (ADS)
+Curso: Análise e Desenvolvimento de Sistemas (ADS) <[^^]/
