@@ -55,4 +55,4 @@ Execute o programa: python MiniLLM.py
 --Autora
 Alissa Garcia Moreira
 IFCE Campus Boa Viagem
-Curso: Análise e Desenvolvimento de Sistemas (ADS) <[^^]/
+Curso: Análise e Desenvolvimento de Sistemas (ADS) <[^-^]/
