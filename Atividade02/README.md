@@ -27,15 +27,7 @@ Configuração
 Crie um arquivo .env na raiz do projeto:
 
 GROQ_API_KEY=sua_chave_aqui
-Execução
-python app.py
 
-A aplicação estará disponível em:
-
-http://localhost:5000
-Estrutura
-app.py: aplicação principal
-.env: variável de ambiente com a chave da API
 Observação
 
 Não versione o arquivo .env. Adicione-o ao .gitignore para evitar exposição de chaves sensíveis.
