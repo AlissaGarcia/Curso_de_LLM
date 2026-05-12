@@ -11,13 +11,17 @@ while True:
     user_input = int(input('> '))
 
     if(user_input == 1):
-        chat = clien.chats.create(model = model, config = types.GenerateContentConfig(system_instruction= system_prompt))
-        print('conversa com Carlinhos')
-        user_prompt = input('>')
-        print('----------------------------------')
-        response = chat.send_mensage(user_prompt)
-        print(response.text)
-        print("---------------------------------")
+        chat = client.chats.create(model = model, config = types.GenerateContentConfig(system_instruction= system_prompt))
+        while True:
+            print('conversa com Carlinhos')
+            user_prompt = input('>')
+            print('----------------------------------')
+
+            if (user_prompt == 'Sair'):
+                break
+            response = chat.send_message(user_prompt)
+            print(response.text)
+            print("---------------------------------")
     
     elif(user_input == 2):
         image_path = input('Digite o caminho até a imagem para o Carlinhos avaliar: ')
